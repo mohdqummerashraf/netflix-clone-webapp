@@ -1,0 +1,76 @@
+.banner-bg {
+  color: white;
+  -o-object-fit: contain;
+     object-fit: contain;
+  height: 500px;
+}
+
+.banner-content {
+  margin-left: 30px;
+  padding-top: 170px;
+  height: 200px;
+  font-family: "montserrat", "Open Sans", "Helvetica Neue", sans-serif;
+}
+
+.banner-title {
+  font-size: 3rem;
+  font-weight: bolder;
+  padding-bottom: 0.3rem;
+  margin-top: 20px;
+}
+
+.banner-description {
+  line-height: 1.5;
+  padding-top: 0.9rem;
+  font-size: 16px;
+  max-width: 370px;
+  font-weight: 400;
+}
+
+.banner_btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  margin-top: 15px;
+}
+
+.banner_btns button {
+  margin-right: 7px;
+  cursor: pointer;
+  padding: 8px 15px;
+  border: none;
+  border-radius: 5px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  font-size: 18px;
+  font-size: 500;
+}
+
+.banner_btns .icon {
+  vertical-align: baseline;
+  margin-right: 5px;
+}
+
+.banner_btns .play {
+  background-color: white;
+  color: black;
+}
+
+.banner_btns .info {
+  background-color: grey;
+  color: white;
+}
+
+.banner-gradient {
+  height: 300px;
+  background-image: -webkit-gradient(linear, left top, left bottom, from(transparent), color-stop(rgba(37, 37, 37, 0.418)), to(#111));
+  background-image: linear-gradient(180deg, transparent, rgba(37, 37, 37, 0.418), #111);
+}
+/*# sourceMappingURL=banner.css.map */

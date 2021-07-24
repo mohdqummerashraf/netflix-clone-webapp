@@ -1,0 +1,78 @@
+.sliderArrow {
+  width: 30px !important;
+  height: 80px !important;
+  color: white;
+  position: absolute;
+  cursor: pointer;
+  z-index: 3;
+  margin: auto;
+  top: 0%;
+  bottom: 0%;
+  -webkit-transition: opacity 0.6s ease-in;
+  transition: opacity 0.6s ease-in;
+  background: -webkit-gradient(linear, left top, right top, from(transparent), color-stop(rgba(12, 17, 27, 0.7)), to(rgba(12, 17, 27, 0.9)));
+  background: linear-gradient(to right, transparent, rgba(12, 17, 27, 0.7), rgba(12, 17, 27, 0.9));
+}
+
+.left {
+  left: 0%;
+}
+
+.right {
+  right: 0%;
+}
+
+.wrapper {
+  position: relative;
+}
+
+.row-poster {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  overflow-y: hidden;
+  overflow-x: hidden;
+  width: 100%;
+  scroll-behavior: smooth;
+  padding-left: 50px;
+}
+
+.row-poster ::-webkit-scrollbar {
+  display: none;
+}
+
+.poster {
+  max-height: 250px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 10px;
+  width: 100%;
+  vertical-align: baseline;
+  border-radius: 10%;
+  cursor: pointer;
+  -webkit-transition: -webkit-transform 450ms;
+  transition: -webkit-transform 450ms;
+  transition: transform 450ms;
+  transition: transform 450ms, -webkit-transform 450ms;
+}
+
+.poster :hover,
+.movie-poster :hover {
+  -webkit-transform: scale(1.08);
+          transform: scale(1.08);
+  opacity: 1;
+}
+
+.heading nav ul li {
+  margin: 40px 0px 15px 0px;
+}
+
+.heading nav ul li a {
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.heading nav ul li :hover {
+  color: blue;
+}
+/*# sourceMappingURL=rows.css.map */

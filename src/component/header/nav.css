@@ -1,0 +1,57 @@
+.head {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+  -webkit-transition-timing-function: ease-in;
+          transition-timing-function: ease-in;
+  -webkit-transition: all 0.5s;
+  transition: all 0.5s;
+  color: white;
+  line-height: 35px;
+  font-family: "montserrat", "Arial Narrow", Arial, sans-serif;
+}
+
+.head_black {
+  background-color: black;
+}
+
+#logo {
+  padding: 0px 20px;
+}
+
+#logo img {
+  width: 80px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  position: fixed;
+}
+
+.nav_page {
+  margin-left: 110px;
+  display: inline-block;
+}
+
+.nav_page span {
+  padding: 0px 10px;
+}
+
+#user {
+  padding: 0px 20px;
+}
+
+#user {
+  text-align: right;
+}
+
+#user img {
+  width: 30px;
+  -o-object-fit: contain;
+     object-fit: contain;
+  margin-right: 10px;
+}
+
+#search {
+  margin: 0px 10px;
+}
+/*# sourceMappingURL=nav.css.map */

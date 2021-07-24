@@ -1,0 +1,16 @@
+.signup {
+  width: 100%;
+  color: white;
+  position: absolute;
+  top: 30%;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  font-family: "montserrat", "Arial Narrow", Arial, sans-serif;
+  form {
+    padding: 30px;
+    width: 500px;
+    margin-left: 50%;
+    transform: translateX(-50%);
+  }
+}

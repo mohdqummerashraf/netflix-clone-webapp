@@ -1,0 +1,53 @@
+.head {
+  position: fixed;
+  top: 0px;
+  width: 100%;
+  z-index: 10;
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+  color: white;
+  line-height: 35px;
+  font-family: "montserrat", "Arial Narrow", Arial, sans-serif;
+}
+
+.head_black {
+  background-color: black;
+}
+
+#logo {
+  padding: 0px 20px;
+}
+
+#logo {
+  img {
+    width: 80px;
+    object-fit: contain;
+    position: fixed;
+  }
+}
+
+.nav_page {
+  margin-left: 110px;
+  display: inline-block;
+
+  span {
+    padding: 0px 10px;
+  }
+}
+
+#user {
+  padding: 0px 20px;
+}
+
+#user {
+  text-align: right;
+  img {
+    width: 30px;
+    object-fit: contain;
+    margin-right: 10px;
+  }
+}
+
+#search {
+  margin: 0px 10px;
+}
